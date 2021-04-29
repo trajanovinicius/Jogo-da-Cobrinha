@@ -26,7 +26,7 @@
         var ax = (ay = 15); //posição inicial do ponto vermelho (apple), applex e appley
 
         var trail = []; //rastro, vai começar com o array vazio, elementos que tenho no rastro da cobra (trail é rastro)
-        tail = 5; //tamanho da calda da cobra
+        tail = 4; //tamanho da calda da cobra
 
         function game() {
           //cada vez que a cobra andar um pouco eu tenho que pintar toda a tela de novo
@@ -80,7 +80,7 @@
           }
         }
         function keyPush(event) {
-          //definir a nossa motimentação, como controlar a cobra
+          //definir a nossa movimentação, como controlar a cobra
 
           switch (
             event.keyCode //qual tecla foi pressionada, código do meu evento
